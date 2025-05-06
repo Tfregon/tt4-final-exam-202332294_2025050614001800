@@ -155,4 +155,4 @@ C:\Users\Thomas\Desktop\tt4-final-exam-202332294_2025050614001800\backend\obj\De
 C:\Users\Thomas\Desktop\tt4-final-exam-202332294_2025050614001800\backend\obj\Debug\net9.0\backend.pdb
 C:\Users\Thomas\Desktop\tt4-final-exam-202332294_2025050614001800\backend\obj\Debug\net9.0\backend.genruntimeconfig.cache
 C:\Users\Thomas\Desktop\tt4-final-exam-202332294_2025050614001800\backend\obj\Debug\net9.0\ref\backend.dll
-C:\Users\Thomas\Desktop\tt4-final-exam-202332294_2025050614001800\backend\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Thomas\Desktop\tt4-final-exam-202332294_2025050614001800\backend\obj\Debug\net9.0\backend.sourcelink.json

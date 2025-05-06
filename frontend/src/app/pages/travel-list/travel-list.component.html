@@ -1,0 +1,25 @@
+<a routerLink="/new" class="btn btn-primary mb-3">Add New Entry</a>
+
+<h2>Travel Journal Entries</h2>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Location</th>
+      <th>Date</th>
+      <th>Description</th>
+      <th>Photos</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let entry of entries">
+      <td>{{ entry.location }}</td>
+      <td>{{ entry.date | date }}</td>
+      <td>{{ entry.description }}</td>
+      <td><a [href]="entry.photos" target="_blank">View</a></td>
+      <td>
+        <button class="btn btn-danger btn-sm" (click)="deleteEntry(entry.id!)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
