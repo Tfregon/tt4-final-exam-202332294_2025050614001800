@@ -164,19 +164,19 @@ A CRUD system where users can register their travel entries. Each entry includes
 - **Photos** (string/URL)
 
 ### 🔧 Backend (ASP.NET Core WebAPI)
-- Created with `.NET 7`
+- Created with `.NET 9`
 - Entity Framework Core with SQLite
 - All CRUD endpoints implemented
 - CORS enabled for frontend access
 - Dockerized with `Dockerfile`
 
-### 🌐 Frontend (Angular | React | Vue | Svelte)
-- Consumes the API using `fetch` or `HttpClient`
+### 🌐 Frontend (Angular)
+- Consumes the API using `HttpClient`
 - Components:
   - List all entries
   - Add/edit entry form
   - Delete button
-- Uses Tailwind or Bootstrap for styling
+- Use Bootstrap for styling
 - Dockerized and served via Nginx
 
 ### 🐳 Docker + Compose
